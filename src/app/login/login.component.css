@@ -1,0 +1,15 @@
+.login-form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10vw;
+    
+}
+::ng-deep  .mat-form-field-label {
+    color: black!important;
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+}

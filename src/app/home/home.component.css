@@ -1,0 +1,28 @@
+.home-screen{
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+}
+::ng-deep .login-form{
+    width: 100% !important;
+   
+}
+@media only screen  and (max-width : 970px){
+    .home-screen{
+        display: flex;
+        flex-direction: column;
+    }
+    ::ng-deep .login-form{
+        width: auto !important;
+    }
+    ::ng-deep .home-card{
+       max-width: 100% !important;
+    }
+}
+@media (min-width :970px) {
+    ::ng-deep .login-form{
+        margin-left: 0 !important;
+        width: 125% !important;
+        padding-right: 15vw!important;
+    }
+}

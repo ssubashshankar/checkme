@@ -1,0 +1,9 @@
+<p>
+  {{Stringinterpolation}}
+</p>
+<input type="text" [(ngModel)]="text">
+
+<button (click)="submit()">submit</button>
+<h3 *ngIf="status">Checking the ng if condition</h3>
+<h4 *ngFor="let li of list; let i=index">{{li}}{{i}}</h4>
+<input type="text" (input)="checking($event)">

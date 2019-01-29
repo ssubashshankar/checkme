@@ -1,0 +1,18 @@
+.signup{
+    text-align: center;
+    margin: 10vw;
+   
+}
+.signup-form{
+    display: flex;
+    flex-direction: column;
+}
+::ng-deep  .mat-form-field-label {
+    color: black!important;
+}
+::ng-deep .mat-datepicker-toggle{
+    color: #850898 !important;
+}
+::ng-deep .mat-checkbox-checkmark{
+    background-color: #850898!important;
+}
